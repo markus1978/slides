@@ -1,0 +1,64 @@
+extends _layouts/base
+
+block content
+  //section.footer
+  //  #slide-numbers.right.
+      1/3
+  //section.header
+  //  .left.
+  //    NOMAD
+  //  .right.
+  //    Forschungsseminar
+  //  .center.
+  //    Markus Scheidgen
+
+  .slide-container
+    section.slide
+      h5.title Computational material science (<span class="abr">CMS</span>)
+      img.framed(src="/images/cms.png")
+      ul.sans
+        li.
+          Computes materials (regular atomic structures) and their properties from first principles (<em class="term">ab
+          initio</em>)
+    section.slide.background(style="background-image: url(/images/cms-goals.jpg);")
+      h5.title CMS goal: find new materials with favorable properties
+    section.slide
+      h5.title Novel Materials Database <span class="abr">NOMAD</span>
+      ul
+        li.
+          <span class="abr">nomad</span> is a <em class="name">European Center of Excellence</em> (<span
+          class="abr">EOC</span>)
+        li.
+          centralized storage and dissamination of material calculations conducted with different
+          community software systems (<em class="term">codes</em>)
+        li.implied.
+          data is processed in different stages from raw calculation data to useful material knowledge
+        li.implied.
+          all the stages entail completely different physics and computer science challenges
+      .notes
+        p.
+          The NOMAD <em class="name">European Center of Excellence</em> (eoc<span class="marker">)</span> is about
+          the long term <span class="marker">c</span>entralized storage and dissamination of theoretical material
+          calculations conducted with various community software (called <em class="term">codes</em>) in research
+          institutes all over the world.
+        p.
+          The various sub-projects of NOMAD focus on management (repository), normalization (archive), 3D visualization,
+          analytics, and material knowledge (encyclopedia).
+        p Va, Ty, To, WA, Vo
+        p(style="font-kerning: none") Va, Ty, To, WA, Vo
+
+    section.slide
+      h5.title <span class="abr">NOMAD</span>’s parts</h5>
+      img(src="/images/nomad-parts.svg")
+      ul.sans
+        li.
+          <em>Managing data:</em> <span class="abr">NOMAD</span>’s <em class="important">repository</em>  allows
+          clients to upload, find, download, and cite calculations
+        li.
+          <em>Nomalizing data:</em> the <em class="important">archive</em> produces nomalized data formats with a shared
+          “<em class="term">meta-model</em>”
+        li.
+          <em>Providing knowledge:</em> the <em class="important">encyclopedia</em> allows to browse material knowledge
+          acquired from all calculations</li>
+
+

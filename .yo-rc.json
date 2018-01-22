@@ -1,0 +1,13 @@
+{
+  "generator-yeogurt": {
+    "config": {
+      "projectName": "slides",
+      "htmlOption": "jade",
+      "jsPreprocessor": "es6",
+      "cssOption": "sass",
+      "sassSyntax": "sass",
+      "testFramework": "mocha"
+    },
+    "version": "2.0.1"
+  }
+}
